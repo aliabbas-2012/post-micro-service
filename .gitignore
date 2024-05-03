@@ -1,0 +1,23 @@
+/nbproject
+/.idea
+Homestead.json
+Homestead.yaml
+.env.example
+.env
+public/*.jpg
+public/s3/
+public/thumbs/
+public/images/
+uploads/*
+# Elastic Beanstalk Files
+#.elasticbeanstalk/*
+#!.elasticbeanstalk/*.cfg.yml
+#!.elasticbeanstalk/*.global.yml
+#!.elasticbeanstalk/config.yml
+#!.ebextensions
+.elasticbeanstalk/*
+#.ebextensions/*
+deploy_bean_stalk.sh
+.env
+vendor/*
+composer.lock

@@ -1,0 +1,46 @@
+{
+    "data": {
+        "id": 2,
+        "content": "Mango Duck",
+        "type": 1,
+        "web_url": null,
+        "local_db_path": "31484686149-2-m",
+        "likes": 0,
+        "comments": 0,
+        "tags": 0,
+        "is_liked": false,
+        "user": {
+            "id": "7ded991e-304c-11e9-bf6a-3417eb717aa1",
+            "username": "parker•leen",
+            "picture": "http://d1lkqsdr30qepu.cloudfront.net/staging/users/thumb/wbulmvfjupload-image1489583139.jpg"
+        },
+        "created_at": "2017-01-17T20:49:09Z",
+        "media": [
+            {
+                "type": 1,
+                "media_type": 1,
+                "post_id": 2,
+                "bucket": "fayvo-sample",
+                "cdn": "http://d1lkqsdr30qepu.cloudfront.net/staging/posts/",
+                "path": "image.fayvo-sample_post_videos_home",
+                "actual": "http://d1lkqsdr30qepu.cloudfront.net/staging/posts/images/original/compress_749uyiwl14932043481493204348.jpg",
+                "thumbnail": "http://d1lkqsdr30qepu.cloudfront.net/staging/posts/images/home/compress_749uyiwl14932043481493204348.jpg",
+                "width": 408,
+                "height": 306,
+                "file_name": "compress_749uyiwl14932043481493204348.jpg",
+                "bg_color": "#FFFFFF"
+            }
+        ],
+        "boxes": [
+            {
+                "id": 1,
+                "name": "London Restaurants",
+                "status": "A"
+            }
+        ],
+        "latitude": "51.5000000",
+        "longitude": "-0.0900000",
+        "location_name": "The Shard",
+        "fs_location_id": "ChIJ03GSCloDdkgRe_s-p2vyvQA"
+    }
+}

@@ -1,0 +1,33 @@
+<?php
+
+return array(
+    'generalError' => 'عذرًا! حدث خطأ ما. يرجى إعادة المحاولة',
+    'post_id_required' => 'معلومات المنشور مفقودة',
+    'postNotFound' => 'هذا المنشور غير متاح بعد الآن',
+    'postViewPermission' => 'غير مسموح لك بمشاهدة هذا المنشور',
+    'itemTypeOther' => 'أخرى',
+    'itemTypeMusic' => 'موسيقى',
+    'itemTypePlace' => 'مكان',
+    'itemTypeFood' => 'طعام',
+    'itemTypeMovie' => 'فيلم',
+    'itemTypeDrama' => 'دراما',
+    'itemTypeTelevision' => 'تلفاز',
+    'itemTypeBook' => 'كتاب',
+    'itemTypeSports' => 'رياضة',
+    'itemTypeScores' => 'نتائج',
+    'itemTypeGame' => 'لعبه',
+    'itemTypeVideo' => 'فيديو',
+    'itemTypeUrl' => 'رابط Url',
+    'noBoxFound' => 'المربع غير متاح بعد الآن',
+    'boxViewPermissionError' => 'ليس لديك إذن لعرض منشورات هذا المربع',
+    'profileNotFound' => 'المستخدم ليس موجود',
+    'profile_id_required' => 'معلومات المستخدم مفقودة',
+    'less_than_required' => 'تحميل المزيد من المعلومات مفقود',
+    'less_than_integer' => 'تحميل المزيد من المعلومات غير صالح',
+    'less_than_min' => 'تحميل المزيد من المعلومات غير صالح',
+    'postCommentPermissonError' => 'غير مسموح لك بالتعليق على هذا المنشور.',
+    'commentDelete' => 'تم حذف التعليق بنجاح',
+    'commentDelePermissonError' => 'غير مصرح لك بحذف هذا التعليق',
+    'postNotAvailable' => 'عذرًا، هذا المنشور غير متاح بعد الآن',
+    'homeSessionKeyExp' => 'حدث خطأ، الرجاء تحديث الصفحة'
+);
