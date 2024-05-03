@@ -18,18 +18,11 @@ A RESTful API boilerplate for Lumen micro-framework. Features included:
 - Endpoint Tests and Unit Tests
 - Build Process with [Travis CI](https://travis-ci.org/)
 
-## Getting Started
-First, clone the repo:
-```bash
-$ git clone git@github.com:hasib32/rest-api-with-lumen.git
-```
 
-#### Laravel Homestead
-You can use Laravel Homestead globally or per project for local development. Follow the [Installation Guide](https://laravel.com/docs/5.5/homestead#installation-and-setup).
 
 #### Install dependencies
 ```
-$ cd rest-api-with-lumen
+$ cd post
 $ composer install
 ```
 
@@ -48,12 +41,12 @@ $ mysql -uhomestead -psecret
 
 Then create a database:
 ```bash
-mysql> CREATE DATABASE restapi;
+mysql> CREATE DATABASE post;
 ```
 
 And also create test database:
 ```bash
-mysql> CREATE DATABASE restapi_test;
+mysql> CREATE DATABASE post_test;
 ```
 
 Run the Artisan migrate command with seed:
@@ -277,7 +270,7 @@ class RepositoriesServiceProvider extends ServiceProvider
 }
 ```
 
-Visit Lumen documentation for more info about [Service Provider](https://lumen.laravel.com/docs/5.5/providers).
+
 
 ### Step 4: Create Fractal Transformer
 Fractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON. Think of this as a view layer for your JSON/YAML/etc.
@@ -583,11 +576,6 @@ Visit Lumen [Controller](https://lumen.laravel.com/docs/5.5/controllers) page fo
 ## Tutorial
 To see the step-by-step tutorial how I created this boilerplate please visit our blog [devnootes.net](https://devnotes.net/rest-api-development-with-lumen-part-one/).
 
-## Contributing
-Contributions, questions and comments are all welcome and encouraged. For code contributions submit a pull request.
 
-## Credits
-[Taylor Otwell](https://github.com/taylorotwell), [Shahriar Mahmood](https://github.com/shahriar1), [Fractal](http://fractal.thephpleague.com/), [Phil Sturgeon](https://github.com/philsturgeon)
-## License
 
  [MIT license](http://opensource.org/licenses/MIT)
