@@ -12,6 +12,9 @@ A RESTful API boilerplate for Lumen micro-framework. Features included:
 - Pagination
 - Seeding Database With Model Factory
 - Event Handling
+- Elastic Search Integration
+- Redis Integration
+- Post and Comments
 - Sending Mail using Mailable class
 - [CORS](https://github.com/barryvdh/laravel-cors) Support
 - [Rate Limit API Requests](https://mattstauffer.co/blog/api-rate-limiting-in-laravel-5-2)
