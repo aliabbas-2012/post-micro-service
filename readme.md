@@ -576,9 +576,6 @@ class MessageController extends Controller
 
 Visit Lumen [Controller](https://lumen.laravel.com/docs/5.5/controllers) page for more info about Controller.
 
-## Tutorial
-To see the step-by-step tutorial how I created this boilerplate please visit our blog [devnootes.net](https://devnotes.net/rest-api-development-with-lumen-part-one/).
-
 
 
  [MIT license](http://opensource.org/licenses/MIT)
